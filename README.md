@@ -8,10 +8,15 @@ Technologies Used:
 
 Key Components:
 🔹 Messages & Prompt Templates – Structures conversations & dynamic prompts for responses.
+
 🔹 Chaining & Composed Chain – Executes multiple steps logically.
+
 🔹 RunnableLambda – Custom functions to filter/refine movie recommendations.
+
 🔹 Pipe Function – Connects multiple transformations before sending queries to LLM.
+
 🔹 Parallel Chaining (RunnableParallel) – Runs multiple tasks (recommendation, rating, translation) simultaneously.
+
 
 Purpose:
 🎬 Dynamically suggests movies based on user preferences.
